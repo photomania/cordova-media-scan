@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="org.apache.cordova.media_scan"
+    version="0.0.1">
+    <name>Media Scan</name>
+    <description>Cordova Media scan Plugin</description>
+    <keywords>cordova,media scan</keywords>
+    <repo>https://github.com/photomania/cordova-media-scan</repo>
+    <issue>https://github.com/photomania/cordova-media-scan/issues</issue>
+
+    <js-module src="www/MediaScan.js" name="MediaScan">
+        <clobbers target="MediaScan" />
+    </js-module>
+
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="MediaScan">
+                <param name="android-package" value="org.apache.cordova.media_scan.Plugin"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/Plugin.java" target-dir="src/org/apache/cordova/media_scan" />
+        <source-file src="src/android/Scanner.java" target-dir="src/org/apache/cordova/media_scan" />
+        <source-file src="src/android/ItemScanner.java" target-dir="src/org/apache/cordova/media_scan" />
+     </platform>
+</plugin>
