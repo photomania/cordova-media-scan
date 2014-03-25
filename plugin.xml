@@ -25,4 +25,15 @@
         <source-file src="src/android/Scanner.java" target-dir="src/org/apache/cordova/media_scan" />
         <source-file src="src/android/ItemScanner.java" target-dir="src/org/apache/cordova/media_scan" />
      </platform>
+
+     <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="MediaScan">
+                <param name="ios-package" value="MediaScan"/>
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/MediaScan.h" />
+        <source-file src="src/ios/MediaScan.m" />
+    </platform>
 </plugin>
