@@ -11,5 +11,4 @@ mediaScanExport.scan = function(successCallback, errorCallback, options) {
     exec(successCallback, errorCallback, "MediaScan", "file", args);
 };
 
-
 module.exports = mediaScanExport;
