@@ -10,6 +10,8 @@
     <repo>https://github.com/photomania/cordova-media-scan</repo>
     <issue>https://github.com/photomania/cordova-media-scan/issues</issue>
 
+    <dependency id="org.apache.cordova.device" />
+
     <js-module src="www/MediaScan.js" name="MediaScan">
         <clobbers target="MediaScan" />
     </js-module>
