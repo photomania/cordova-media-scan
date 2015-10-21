@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="org.apache.cordova.media_scan"
+    id="photomania-cordova-media_scan"
     version="0.0.1">
     <name>Media Scan</name>
     <description>Cordova Media scan Plugin</description>
