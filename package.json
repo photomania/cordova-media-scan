@@ -1,0 +1,22 @@
+{
+  "name": "cordova-media-scan",
+  "version": "0.0.1",
+  "description": "Cordova Media Scan Plugin",
+  "cordova": {
+    "id": "photomania-cordova-media_scan",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/photomania/cordova-media-scan"
+  },
+  "keywords": [
+    "cordova",
+    "media scan"
+  ],
+  "author": "PhotoMania",
+  "license": "Custom"
+}
